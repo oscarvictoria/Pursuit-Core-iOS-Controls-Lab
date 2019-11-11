@@ -89,6 +89,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="segmentedControl" destination="SBG-lF-cl1" id="7yA-ry-hvY"/>
+                        <outlet property="stepperControl" destination="rtu-p8-7eg" id="gOW-kc-lvy"/>
+                        <outletCollection property="cardValue" destination="3w6-im-jOG" collectionClass="NSMutableArray" id="hho-S9-SFV"/>
+                        <outletCollection property="cardValue" destination="nu8-aQ-sTx" collectionClass="NSMutableArray" id="SU6-Gi-fhZ"/>
+                        <outletCollection property="cardValue" destination="IUz-dj-QxE" collectionClass="NSMutableArray" id="ayP-uc-9gT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
